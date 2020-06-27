@@ -31,7 +31,8 @@
  * ROC-SIANI - Universidad de Las Palmas de Gran Canaria - Spain
  */
 
-#pragma once
+#ifndef PWM_DEFS_H
+#define PWM_DEFS_H
 
 #include <Arduino.h>
 
@@ -200,3 +201,5 @@ namespace arduino_due
     }
 
 }
+
+#endif // PWM_DEFS_H

@@ -31,7 +31,8 @@
  * ROC-SIANI - Universidad de Las Palmas de Gran Canaria - Spain
  */
 
-#pragma once
+#ifndef PWM_LIB_H
+#define PWM_LIB_H
 
 #include "pwm_defs.h"
 
@@ -512,3 +513,5 @@ namespace arduino_due
         }; // template<typename SERVO_TYPE> class servo_wrapper: public servo_base
     }
 }
+
+#endif // PWM_LIB_H
